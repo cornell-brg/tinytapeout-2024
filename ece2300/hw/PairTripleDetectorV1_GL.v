@@ -2,8 +2,8 @@
 // PairTripleDetectorV1_GL
 //========================================================================
 
-`ifndef PAIR_TRIPLE_DETECTOR_V1_GL_V
-`define PAIR_TRIPLE_DETECTOR_V1_GL_V
+`ifndef PAIR_TRIPLE_DETECTOR_GL_V
+`define PAIR_TRIPLE_DETECTOR_GL_V
 
 module PairTripleDetectorV1_GL
 (
