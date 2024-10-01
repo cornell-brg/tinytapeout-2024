@@ -5,7 +5,7 @@
 `ifndef PAIR_TRIPLE_DETECTOR_GL_V
 `define PAIR_TRIPLE_DETECTOR_GL_V
 
-module PairTripleDetectorV1_GL
+module PairTripleDetector_GL
 (
   input  wire in0,
   input  wire in1,

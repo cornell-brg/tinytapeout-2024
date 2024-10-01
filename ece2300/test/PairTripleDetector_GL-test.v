@@ -1,9 +1,9 @@
 //========================================================================
-// PairTripleDetectorV4_GL-test
+// PairTripleDetector_GL-test
 //========================================================================
 
 `include "ece2300-test.v"
-`include "PairTripleDetectorV4_GL.v"
+`include "../hw/PairTripleDetector_GL.v"
 
 module Top();
 
@@ -27,7 +27,7 @@ module Top();
   logic dut_in2;
   logic dut_out;
 
-  PairTripleDetectorV4_GL dut
+  PairTripleDetector_GL dut
   (
     .in0 (dut_in0),
     .in1 (dut_in1),
@@ -89,6 +89,10 @@ module Top();
   task test_case_2_exhaustive();
     t.test_case_begin( "test_case_2_exhaustive" );
 
+    //''' ACTIVITY '''''''''''''''''''''''''''''''''''''''''''''''''''''''
+    // Add checks for exhaustive testing (check all possible inputs)
+    //>'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
     check( 0, 0, 0, 0 );
     check( 0, 0, 1, 0 );
     check( 0, 1, 0, 0 );
@@ -98,6 +102,8 @@ module Top();
     check( 1, 0, 1, 1 );
     check( 1, 1, 0, 1 );
     check( 1, 1, 1, 1 );
+
+    //<'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
   endtask
 
