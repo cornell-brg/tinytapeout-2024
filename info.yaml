@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Tiny"      # Project title
+  title:        "2300DiscTest"      # Project title
   author:       "Natalia Pope"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "turns on if 2 or 3 are on"      # One line description of what your project does
@@ -32,7 +32,7 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "TriplePairDetector"
+  uo[0]: "Pair Triple Detector"
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
