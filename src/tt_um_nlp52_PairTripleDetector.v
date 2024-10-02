@@ -7,7 +7,7 @@
 // PairTripleDetector_GL
 //========================================================================
 
-`include "../hw/PairTripleDetector_GL.v"
+`include "../ece2300/hw/PairTripleDetector_GL.v"
 
 `ifndef TT_UM_NLP52_PAIRTRIPLEDETECTOR_V
 `define TT_UM_NLP52_PAIRTRIPLEDETECTOR_V
