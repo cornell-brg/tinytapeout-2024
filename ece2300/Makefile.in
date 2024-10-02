@@ -5,21 +5,14 @@
 # Date   : September 7, 2024
 
 hws = \
-  PairTripleDetectorV1_GL.v \
-  PairTripleDetectorV2_GL.v \
-  PairTripleDetectorV3_GL.v \
-  PairTripleDetectorV4_GL.v \
-  PairTripleDetectorV5_GL.v \
+  PairTripleDetector_GL.v 
+
 
 tests = \
-  PairTripleDetectorV1_GL-test.v \
-  PairTripleDetectorV2_GL-test.v \
-  PairTripleDetectorV3_GL-test.v \
-  PairTripleDetectorV4_GL-test.v \
-  PairTripleDetectorV5_GL-test.v \
+  PairTripleDetector_GL-test.v \
 
 sims = \
-  PairTripleDetectorV1_GL-adhoc.v \
+  PairTripleDetector_GL-adhoc.v \
 
 #-------------------------------------------------------------------------
 # Basic setup
